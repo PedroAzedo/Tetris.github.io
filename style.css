@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#tetris {
+  display: grid;
+  grid-template-rows: repeat(20, 25px);
+  grid-template-columns: repeat(10, 25px);
+  gap: 1px;
+  margin-top: 10px;
+  background-color: #222;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  background-color: #333;
+}
+
+.filled {
+  background-color: #0ff;
+}
+
+#score {
+  font-size: 18px;
+  margin-top: 10px;
+}
