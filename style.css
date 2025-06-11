@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+#tetris {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(20, 30px);
+  gap: 1px;
+  background-color: #333;
+}
+
+.celula {
+  width: 30px;
+  height: 30px;
+  background-color: #222;
+}
+
+.preechida {
+  background-color: #fff;
+}
+
+#pontuacao {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
